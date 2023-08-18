@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="logout">Sair</string>
+    <string name="recover_your_password">Recuperar palavra-passe</string>
+    <string name="don_t_have_account_sign_up">Não tem conta? Registe-se!</string>
+    <string name="login">Entrar</string>
+    <string name="keep_me_logged">Manter-me autenticado</string>
+    <string name="password">Palavra-passe</string>
+    <string name="username">Nome de utilizador</string>
+    <string name="signup">Registar</string>
+    <string name="login_error">Falha na autenticação</string>
+    <string name="please_insert_all_required_fields">Preenche todos os campos</string>
+    <string name="signup_ok">Registo efetuado com sucesso</string>
+    <string name="signup_error">Falha no registo</string>
+    <string name="confirm_password">Confirmar palavra-passe</string>
+    <string name="begindate">Data de Início</string>
+    <string name="name">Nome</string>
+    <string name="app_name">#SkillingFirst</string>
+    <string name="password_dont_match">Palavra-passe incorreta</string>
+    <string name="end_date">Data de fim</string>
+    <string name="price">Preço</string>
+    <string name="edition">Edição</string>
+    <string name="edit">Editar</string>
+    <string name="back">Voltar</string>
+    <string name="save">Gravar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="delete">Apagar</string>
+    <string name="click_here_for_information_about_the_app">Clica aqui para saber mais sobre a aplicação</string>
+    <string name="_20_values">20 valores</string>
+    <string name="self_evaluation">Auto-avaliação</string>
+    <string name="keep_me_logged_option">Opção para manter autenticação</string>
+    <string name="registration_of_users_in_the_application">Registos de novos utiizadores na aplicação</string>
+    <string name="extra_elements_to_the_statement">Extra elements to the statement</string>
+    <string name="developed_by_jo_o_pinto">Desenvolvido por: João Pinto</string>
+    <string name="course_details">Detalhes do curso</string>
+</resources>

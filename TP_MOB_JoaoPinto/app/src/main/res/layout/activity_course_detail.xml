@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.CourseDetailActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/course_details"
+        android:textColor="#5b255f"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_course"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginVertical="14dp"
+        android:src="@drawable/imagedefault" />
+
+    <EditText
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/name"
+        android:textColor="#1B1B1B" />
+
+    <EditText
+        android:id="@+id/edit_local"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="Local"
+        android:textColor="#1B1B1B" />
+
+    <EditText
+        android:id="@+id/edit_dateBegin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/begindate"
+        android:textColor="#1B1B1B" />
+
+    <EditText
+        android:id="@+id/edit_dateEnd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/end_date"
+        android:textColor="#1B1B1B" />
+
+    <EditText
+        android:id="@+id/edit_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/price"
+        android:textColor="#1B1B1B" />
+
+    <EditText
+        android:id="@+id/edit_duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="Duration"
+        android:textColor="#1B1B1B" />
+
+    <EditText
+        android:id="@+id/edit_edition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:gravity="center"
+        android:text="@string/edition"
+        android:textColor="#1B1B1B" />
+
+    <LinearLayout
+        android:id="@+id/layout_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_edit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:text="@string/edit" />
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cancel"
+            android:text="@string/back" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_edit_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="#5b255f"
+            android:text="@string/save" />
+
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/cancel"
+            android:text="@string/cancel" />
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/delete"
+            android:text="@string/delete" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

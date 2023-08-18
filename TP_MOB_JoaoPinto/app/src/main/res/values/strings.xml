@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">#SkillingFirst</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="keep_me_logged">Keep me logged</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_account_sign_up">Don´t have account? Sign up!</string>
+    <string name="recover_your_password">Recover your password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="signup">Signup</string>
+    <string name="password_dont_match">Password don\'t match</string>
+    <string name="please_insert_all_required_fields">Please insert all required fields</string>
+    <string name="signup_ok">Signup ok</string>
+    <string name="signup_error">Signup error</string>
+    <string name="login_error">Login error</string>
+    <string name="logout">Logout</string>
+    <string name="begindate">Begin Date</string>
+    <string name="local" translatable="false">Local</string>
+    <string name="name">Name</string>
+    <string name="end_date">End Date</string>
+    <string name="price">Price</string>
+    <string name="edition">Edition</string>
+    <string name="edit">Edit</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="click_here_for_information_about_the_app">Click here for information about the app</string>
+    <string name="_20_values">20 values</string>
+    <string name="self_evaluation">Self-evaluation:</string>
+    <string name="keep_me_logged_option">Keep me logged option</string>
+    <string name="registration_of_users_in_the_application">Registration of users in the application</string>
+    <string name="extra_elements_to_the_statement">Extra elements to the statement</string>
+    <string name="splashscreen" translatable="false">SplashScreen</string>
+    <string name="sharedpreferences" translatable="false">SharedPreferences</string>
+    <string name="developed_by_jo_o_pinto">Developed by João Pinto</string>
+    <string name="course_details">Course Details</string>
+</resources>
