@@ -1,6 +1,6 @@
 # MOB-ANDROID
 
-## Projeto desenvolvido no âmbito do curso de software developer
+## Projeto com Kotlin desenvolvido no âmbito do curso de software developer
 
 #### Conceitos abordados
 
